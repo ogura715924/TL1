@@ -55,10 +55,7 @@ public class JSON_Reader : MonoBehaviour
             {
                 cube.transform.localScale = scaling;
                 Instantiate(cube, position, Quaternion.Euler(rotation));
-
             }
-
-            //if(one.children)
 
             Debug.Log($"type:{one.type}");
             Debug.Log($"name:{one.name}");
